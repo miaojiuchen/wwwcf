@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d16d2ebc-f008-4b7b-a367-7d3c3b92d9ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8899/helloworld" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="helloworld.xsd" MetadataType="Schema" ID="346d8a2a-7f1c-4bbd-9ff7-fce7f4e06157" SourceId="1" SourceUrl="http://localhost:8899/helloworld?xsd=xsd1" />
+    <MetadataFile FileName="helloworld.wsdl" MetadataType="Wsdl" ID="e55a26ba-bc7a-4843-b8a4-548275fcfe6f" SourceId="1" SourceUrl="http://localhost:8899/helloworld?wsdl=wsdl0" />
+    <MetadataFile FileName="helloworld1.xsd" MetadataType="Schema" ID="02fb2677-8c84-4053-af24-22870dc9677e" SourceId="1" SourceUrl="http://localhost:8899/helloworld?xsd=xsd0" />
+    <MetadataFile FileName="helloworld.disco" MetadataType="Disco" ID="4f97d015-6ed7-4281-afbb-6056605f9d5b" SourceId="1" SourceUrl="http://localhost:8899/helloworld?disco" />
+    <MetadataFile FileName="CalculatorService.wsdl" MetadataType="Wsdl" ID="b416d59a-5d06-40b8-964b-c7b9ca9d8ac9" SourceId="1" SourceUrl="http://localhost:8899/helloworld?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
