@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ICalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services.wcf.g.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

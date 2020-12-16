@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReference\Reference.cs">
+    <Compile Include="Connected Services\ExchangeServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -55,12 +55,1785 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\ServiceReference\CalculatorService.wsdl" />
-    <None Include="Connected Services\ServiceReference\helloworld.wsdl" />
-    <None Include="Connected Services\ServiceReference\helloworld.xsd">
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AcceptSharedCalendarInviteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AcceptSharedCalendarInviteResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ActivateSharingInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ActivateSharingInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddDelegateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddDelegateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddDistributionGroupToImListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddDistributionGroupToImListResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddEntityFeedbackResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddEntityFeedbackResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddEventToMyCalanderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddEventToMyCalanderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddImContactToGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddImContactToGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddImGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddImGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddNewImContactToGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddNewImContactToGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddNewTelUriContactToGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddNewTelUriContactToGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddPeopleCommunicationSignalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddPeopleCommunicationSignalResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddTagResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddTagResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddTailoredExperienceEventsToCalendarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.AddTailoredExperienceEventsToCalendarResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyConversationActionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyConversationActionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyEventCoauthoringUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyEventCoauthoringUpdateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyEventCoOrganizerUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ApplyEventCoOrganizerUpdateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ArchiveItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ArchiveItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.BatchShareExistingXrmActivitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.BatchShareExistingXrmActivitiesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ChannelSubscribeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ChannelSubscribeResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ChannelUnsubscribeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ChannelUnsubscribeResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ClientExtensionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CompleteFindInGALSpeechRecognitionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CompleteFindInGALSpeechRecognitionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ConfigureConsumerGroupMemberSharingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ConfigureConsumerGroupMemberSharingResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ContactPropertySuggestionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ContactPropertySuggestionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ConvertIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ConvertIdResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CopyFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CopyFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CopyItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CopyItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateAndRespondToMeetingByDelegateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateAndRespondToMeetingByDelegateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateAttachmentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateAttachmentResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingCustomerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingCustomerResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingCustomQuestionCommandResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingCustomQuestionCommandResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingServiceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingServiceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingStaffResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateBookingStaffResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateFolderPathResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateFolderPathResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateManagedFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateManagedFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingInstanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingInstanceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingPollResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingPollResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingSpaceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateMeetingSpaceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateOrUpdateFocusedOtherOverrideResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateOrUpdateFocusedOtherOverrideResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreatePhotoTaskResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateSharingInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateSharingInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateSharingPermissionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateSharingPermissionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUMCallDataRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUMCallDataRecordResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUMPromptResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUMPromptResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUserConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateUserConfigurationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmActivityStreamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmActivityStreamResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmDealResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmDealResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmGraphRelationshipResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmGraphRelationshipResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.CreateXrmOrganizationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteAttachmentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteAttachmentResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingCustomQuestionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingCustomQuestionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingServiceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingServiceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingStaffResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteBookingStaffResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteFocusedOtherOverrideResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteFocusedOtherOverrideResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteMeetingInstanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteMeetingInstanceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteMeetingSpaceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteMeetingSpaceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeletePdpFacetsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeletePdpFacetsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeletePeopleInsightsTokensResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeletePeopleInsightsTokensResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSearchSuggestionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSearchSuggestionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSharingInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSharingInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSharingPermissionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteSharingPermissionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteUMPromptsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteUMPromptsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteUserConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteUserConfigurationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmActivityStreamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmActivityStreamResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmDealResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmDealResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmGraphRelationshipResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmGraphRelationshipResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DeleteXrmOrganizationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DisableAppResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DisableAppResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DisconnectPhoneCallResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.DisconnectPhoneCallResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EmptyFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EmptyFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EndSearchSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EndSearchSessionResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EstablishConsumerGroupMemberSharingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.EstablishConsumerGroupMemberSharingResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExecuteComplianceTaskResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExecuteComplianceTaskResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExecuteSearchResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExecuteSearchResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExpandDLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExpandDLResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExportItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ExportItemsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindAddressListIndexContactsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindAddressListIndexContactsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindBookingCustomersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindBookingCustomersResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindConversationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindConversationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindInsightsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindInsightsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMailboxStatisticsByKeywordsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMailboxStatisticsByKeywordsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMeetingSpaceByJoinUrlResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMeetingSpaceByJoinUrlResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMeetingTimeCandidatesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMeetingTimeCandidatesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMessageTrackingReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindMessageTrackingReportResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindPeopleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindPeopleResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindPlacesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindPlacesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindTagsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindTagsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindUnifiedGroupsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindUnifiedGroupsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmActivityStreamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmActivityStreamResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmDealResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmDealResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmGraphRelationshipResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmGraphRelationshipResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.FindXrmOrganizationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAggregatedXrmActivitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAggregatedXrmActivitiesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAllClientExtensionsNotificationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAllClientExtensionsNotificationsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAppManifestsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAppManifestsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAppMarketplaceUrlResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAppMarketplaceUrlResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAttachmentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAttachmentResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAvailableCulturesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetAvailableCulturesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingAdminSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingAdminSettingsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingCalendarPublishingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingCalendarPublishingResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingCustomQuestionsCommandResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingCustomQuestionsCommandResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingMailboxDiagnosticsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingMailboxDiagnosticsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingMailboxesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingMailboxesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingServiceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingServiceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingServicesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingServicesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingStaffResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBookingStaffResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBusinessInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetBusinessInformationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetCalendarSharedInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetCalendarSharedInformationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetChannelEventsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetChannelEventsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetClientAccessTokenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetClientAccessTokenResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetClientExtensionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetClientIntentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetClientIntentResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetConsumerCalendarSharedInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetConsumerCalendarSharedInformationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetConversationItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetConversationItemsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDelegateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDelegateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDiscoverySearchConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDiscoverySearchConfigurationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDlMembersForUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetDlMembersForUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetEventsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetEventsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFileItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFileItemsResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFocusedOtherOverridesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFocusedOtherOverridesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetHoldOnMailboxesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetHoldOnMailboxesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetImItemListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetImItemListResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetImItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetImItemsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetInboxRulesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetInboxRulesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetInsightsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetInsightsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetIsFocusedInboxOnResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetIsFocusedInboxOnResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetLastPrivateCatalogUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetLastPrivateCatalogUpdateResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMailTipsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMailTipsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMasterCategoryListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMasterCategoryListResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingInstanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingInstanceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingParticipantAvailabilityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingParticipantAvailabilityResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingSpaceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMeetingSpaceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMessageTrackingReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetMessageTrackingReportResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithHashtagResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithHashtagResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithPeopleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithPeopleResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithPersonResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNextMeetingWithPersonResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNonIndexableItemDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNonIndexableItemDetailsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNonIndexableItemStatisticsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetNonIndexableItemStatisticsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetParcelDeliveryStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetParcelDeliveryStatusResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPasswordExpirationDateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPasswordExpirationDateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPeopleInsightsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPeopleInsightsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPeopleInsightsTokensResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPeopleInsightsTokensResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPersonalNotesForPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPersonalNotesForPersonaResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPersonaResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPhoneCallInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPhoneCallInformationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPhotoStripForItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPhotoStripForItemResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPrivateCatalogAddInsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetPrivateCatalogAddInsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetRoomListsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetRoomListsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetRoomsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetRoomsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSearchableMailboxesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSearchableMailboxesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSearchSuggestionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSearchSuggestionsResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetServerTimeZonesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetServerTimeZonesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetServiceConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetServiceConfigurationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetShardRelevancyDataResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetShardRelevancyDataResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetShardRelevancyScoreResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetShardRelevancyScoreResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingFolderResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingInvitationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingInvitationsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingMetadataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingMetadataResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingPermissionInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingPermissionInfoResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingPermissionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSharingPermissionsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSpecificUserConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetSpecificUserConfigurationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetStaffAvailabilityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetStaffAvailabilityResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetStreamingEventsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetStreamingEventsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetTopShelfResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetTopShelfResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMCallDataRecordsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMCallDataRecordsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMCallSummaryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMCallSummaryResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPinResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPinResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPromptNamesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPromptNamesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPromptResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMPromptResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMSubscriberCallAnsweringDataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUMSubscriberCallAnsweringDataResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupDetailsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupMembershipRequestsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupMembershipRequestsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupMembersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupMembersResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupsSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupsSettingsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupUnseenCountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUnifiedGroupUnseenCountResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserAvailabilityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserAvailabilityResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserConfigurationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserOofSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserOofSettingsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserPhotoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserPhotoResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserRetentionPolicyTagsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserRetentionPolicyTagsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserUnifiedGroupsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetUserUnifiedGroupsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmActivityStreamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmActivityStreamResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmDealResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmDealResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.GetXrmOrganizationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.HideTagResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.HideTagResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.InitUMMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.InitUMMailboxResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.InstallAppResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.InstallAppResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.JoinPrivateUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.JoinPrivateUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MarkAllItemsAsReadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MarkAllItemsAsReadResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MarkAsJunkResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MarkAsJunkResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MaskAutoCompleteRecipientResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MaskAutoCompleteRecipientResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MoveFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MoveFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MoveItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.MoveItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.NewBookingMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.NewBookingMailboxResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.NotifyOneDriveSyncResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.NotifyOneDriveSyncResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PlayOnPhoneResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PlayOnPhoneResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PostGroupItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PostModernGroupItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PostModernGroupItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PostUnifiedGroupItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.PostUnifiedGroupItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ProcessComplianceOperationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ProcessComplianceOperationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ProcessTailoredExperienceEntitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ProcessTailoredExperienceEntitiesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ReadPdpFacetsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ReadPdpFacetsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordBookingPageLinkingActionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordBookingPageLinkingActionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordCoauthoringInvitationResponseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordCoauthoringInvitationResponseResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordCoOrganizerInvitationResponseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RecordCoOrganizerInvitationResponseResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RefreshSharingFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RefreshSharingFolderResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveContactFromImListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveContactFromImListResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveDelegateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveDelegateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveDistributionGroupFromImListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveDistributionGroupFromImListResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveImContactFromGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveImContactFromGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveImGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveImGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveTailoredExperienceEventsFromCalendarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveTailoredExperienceEventsFromCalendarResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RemoveUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ReportMessageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ReportMessageResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ResetUMMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ResetUMMailboxResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ResolveNamesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ResolveNamesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RespondToCoauthoringInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RespondToCoauthoringInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RespondToCoOrganizerInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RespondToCoOrganizerInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RouteComplaintResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.RouteComplaintResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SaveUMPinResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SaveUMPinResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ScheduleFollowupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ScheduleFollowupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ScheduleItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ScheduleItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SearchMailboxesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SearchMailboxesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SendItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SendItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ServerVersionInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingCalendarPublishingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingCalendarPublishingResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingMailboxPhotoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingMailboxPhotoResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingMailboxSBGraphLinkingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBookingMailboxSBGraphLinkingResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBusinessInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetBusinessInformationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetClientExtensionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetClientExtensionResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetHoldOnMailboxesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetHoldOnMailboxesResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetImGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetImGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetImListMigrationCompletedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetImListMigrationCompletedResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetPeopleInsightsTokensResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetPeopleInsightsTokensResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetProfilePhotoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetProfilePhotoResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetShardRelevancyDataResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetShardRelevancyDataResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetTeamMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetTeamMailboxResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupFavoriteStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupFavoriteStateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupLastVisitedTimeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupLastVisitedTimeResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupMembershipStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupMembershipStateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupUnseenDataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupUnseenDataResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupUserSubscribeStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUnifiedGroupUserSubscribeStateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUserOofSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUserOofSettingsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUserPhotoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SetUserPhotoResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ShareSingleXrmActivityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ShareSingleXrmActivityResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ShareTailoredExperienceEventResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ShareTailoredExperienceEventResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartFindInGALSpeechRecognitionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartFindInGALSpeechRecognitionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartSearchSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartSearchSessionResponseMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartXrmSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.StartXrmSessionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SubscribeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SubscribeResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncFolderHierarchyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncFolderHierarchyResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncFolderItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncFolderItemsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.SyncUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UninstallAppResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UninstallAppResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnpinTeamMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnpinTeamMailboxResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnscheduleItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnscheduleItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnsubscribeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UnsubscribeResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingCustomerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingCustomerResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingCustomQuestionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingCustomQuestionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingServiceOrderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingServiceOrderResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingServiceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingServiceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingStaffResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateBookingStaffResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateClientExtensionNotificationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateClientExtensionNotificationsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateDelegateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateDelegateResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateDelegateSharingPermissionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateDelegateSharingPermissionResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateExtensionUsageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateExtensionUsageResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateFolderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateFolderResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateGroupMailboxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateGroupMailboxResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateInboxRulesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateInboxRulesResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateItemInRecoverableItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateItemInRecoverableItemsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateItemResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMailboxAssociationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMailboxAssociationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMasterCategoryListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMasterCategoryListResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMeetingInstanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMeetingInstanceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMeetingSpaceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateMeetingSpaceResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateSharingInvitationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateSharingInvitationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateSharingPermissionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateSharingPermissionsResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateTopShelfResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateTopShelfResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateUnifiedGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateUnifiedGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateUserConfigurationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateUserConfigurationResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmActivityStreamResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmActivityStreamResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmDealResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmDealResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpdateXrmOrganizationResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpgradeDistributionGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UpgradeDistributionGroupResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UploadItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.UploadItemsResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ValidateUMPinResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ValidateUMPinResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ValidateUnifiedGroupAliasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.ValidateUnifiedGroupAliasResponseMessageType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.WritePdpFacetsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ClientFx.ExchangeServiceReference.WritePdpFacetsResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ExchangeServiceReference\ExchangeServiceImpl.wsdl" />
+    <None Include="Connected Services\ExchangeServiceReference\helloworld.wsdl" />
+    <None Include="Connected Services\ExchangeServiceReference\helloworld.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceReference\helloworld1.xsd">
+    <None Include="Connected Services\ExchangeServiceReference\helloworld1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -68,22 +1841,22 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\ExchangeServiceReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference\helloworld.disco" />
+    <None Include="Connected Services\ExchangeServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\ExchangeServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\ServiceReference\Reference.svcmap">
+    <None Include="Connected Services\ExchangeServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ExchangeServiceReference\helloworld.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
